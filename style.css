@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css?family=Bubbler+One");
+@import url("https://fonts.googleapis.com/css?family=Nixie+One");
+body{
+  background-color: #3f3d3d;
+  
+}
+.nav-item{
+  padding-left: 20px;
+}
+
+#main-div{
+  z-index:2;
+}
+.img-circle {
+  border-radius: 50%;
+  border-color: #dadee5;
+  border-style: solid;
+	width: 270px;
+	height: 300px;
+  display: block;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  
+    /*margin-right: 10px;*/
+    /*float: left;*/
+}
+
+#name{
+  margin:0 auto;
+  width: 50%;
+  
+  margin-top: 3%;
+  border-style: solid;
+  padding: 1%;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#mn-text{
+  font-family: 'Bubbler One', sans-serif;
+  font-size: 4.6em;
+  font-weight: bold;
+  margin: 0 auto;
+  
+}
+
+#bio {
+  margin-top: 2%;
+	/*float: right;*/
+	/*margin-top: 30px;*/
+	width: 100%;
+  
+	color: #000000;
+	font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
+}
+
+.section {
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 70%;
+   margin: 0 auto;
+/*display: inline-block;*/
+    padding: 50px 0;
+ margin: 0 auto;
+    overflow: hidden;
+	background-color: #e94d4d;
+  min-height: 600px;
+	
+  /*margin-top: 20px;*/
+	margin-bottom: 20px;
+}
+#main-div{
+  position: fixed;
+  width: 100%;
+  bottom-margin:1 px;
+}
+
+.txt{
+  font-family: 'Nixie One', cursive;
+}
+
+.card-2 {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: 300px;
+  margin: 1rem;
+  margin-top: 5em;
+  position: relative;
+  width: 300px;
+  padding-top: 3em;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+
+.card-2:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+.cheez{
+  font-family: 'Bubbler One', sans-serif;
+  font-weight: bold;
+  font-size:4em;
+
+}
+
+#last{
+    margin-bottom: 1.7em;
+}
+
+.navtxt{
+  font-family: 'Nixie One', cursive;
+  font-weight: bold;
+}
+
+#sklz{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: 500px;
+  margin: 1rem;
+  margin-top: 3em;
+  
+  position: relative;
+  width: 400px;
+  padding-top: 1.2em;
+  #transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  
+}
+
+#future{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: 500px;
+  margin: 1rem;
+  margin-top: 3em;
+  position: relative;
+  width: 400px;
+  padding-top: 1.2em;
+  
+  #transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.intxt{
+  font-size: 3em;
+}
+
+.contnt{
+ width: 100px;
+  height: 100px;
+  margin-bottom: .5em;
+  margin-top: 1.2em;
+}
+
+h3{
+  font-size: 1.3em;
+  margin-top: .5em;
+}
+
+.lst{
+  margin-top: 1.3em;
+  margin-bottom: 1em;
+}
+
+.soci{
+  width: 140px;
+  height: 140px;
+}
+
+#tag{
+  
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  background: #3f3d3d;
+  border-radius: 2px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.9em;
+  position: relative;
+  width: 50em;
+  padding-top: 6.0em;
+}
+
+.nueva{
+  font-size: 4em;
+  font-weight: bold;
+  color: #030303;
+}
+
+#gud{
+  postiion: absolute;
+  bottom: 0px;
+  color: white;
+  margin-right: .5em;
+  text-align: right;
+  opacity: .3;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .img {
+        width: 30px;
+        height: 40px;
+    }
+}
+
+
+
+
+
